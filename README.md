@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Context API Shopping Website with Cart Functions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Context API Shopping Website with Cart Functions](#context-api-shopping-website-with-cart-functions)
+  - [Table of Contents](#table-of-contents)
+  - [Netlify Deployed URL](#netlify-deployed-url)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Usage with Screenshots](#usage-with-screenshots)
+    - [1. Browse the home page to view available products.](#1-browse-the-home-page-to-view-available-products)
+    - [2. Click "Add to Cart" to add a product to the cart.](#2-click-add-to-cart-to-add-a-product-to-the-cart)
+    - [3. Navigate to the cart page to manage your cart contents.](#3-navigate-to-the-cart-page-to-manage-your-cart-contents)
+    - [4. Adjust product quantities using the "+" and "-" buttons.](#4-adjust-product-quantities-using-the--and---buttons)
+    - [5. Click "Remove from Cart" to remove a product from the cart.](#5-click-remove-from-cart-to-remove-a-product-from-the-cart)
+    - [6. Click in the Apple Logo or SHOP Cart Page to go to the Home Page.](#6-click-in-the-apple-logo-or-shop-cart-page-to-go-to-the-home-page)
+    - [7. Click in the Continue Shopping on the Cart Page to go to the Home Page.](#7-click-in-the-continue-shopping-on-the-cart-page-to-go-to-the-home-page)
+  - [Technologies Used](#technologies-used)
+ 
+## Netlify Deployed URL
 
-In the project directory, you can run:
+🔸*Check out My ContextAPI Shopping Cart  Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://contextapi-react-task-5.netlify.app)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Product display with details and images.
+- Cart functionality: add and remove products, adjust quantities.
+- Navigation between home and cart pages.
+- Total price calculation based on cart contents.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/Harsha-2324/ReactTask_5.git
 
-### `npm run build`
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd ReactTask_5
+   npm install 
+   npm install react-router-dom
+   npm install axios
+   npm install --save phosphor-react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
 
-### `npm run eject`
+3. **Start the development server:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm run dev
+   
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open your browser and navigate to** http://localhost:3000 **to view the app.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage with Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Browse the home page to view available products.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
 
-## Learn More
+### 2. Click "Add to Cart" to add a product to the cart.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(136).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(137).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(138).png)
+ ![image](./public/image/Output_Screenshot/Screenshot%20(139).png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. Navigate to the cart page to manage your cart contents.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(140).png)
+ 
+### 4. Adjust product quantities using the "+" and "-" buttons.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(140).png)
+  
+### 5. Click "Remove from Cart" to remove a product from the cart.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(141).png)
+  
+### 6. Click in the Apple Logo or SHOP Cart Page to go to the Home Page.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 7. Click in the Continue Shopping on the Cart Page to go to the Home Page.
+ ![image](./public/image/Output_Screenshot/Screenshot%20(135).png)
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- React Router
+- Context API for state management
+- HTML/CSS
+- Bootstrap for styling
