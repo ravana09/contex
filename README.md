@@ -19,7 +19,7 @@
  
 ## Netlify Deployed URL
 
-🔸*Check out My ContextAPI Shopping Cart  Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://contextapi-react-task-5.netlify.app)
+🔸*Check out My ContextAPI Shopping Cart  Here*👉🏻 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://peppy-fenglisu-b2a745.netlify.app)
 
 ## Features
 
@@ -33,7 +33,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Harsha-2324/ReactTask_5.git
+   git clone https://github.com/ravana09/contex.git
 
    ```
 
